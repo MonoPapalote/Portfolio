@@ -1,0 +1,27 @@
+.nav {
+    position: fixed;
+    &--container{
+        display: block;
+        background-color: $fondoNav;
+        width: 150px;
+        height: 600px;
+        text-align: center;
+        margin-left: 1380px;
+        margin-top: 100px;
+    }
+    &__list{
+        list-style: none;
+        align-items: center;
+        margin-top: 20px;
+    }
+    &__item{
+        margin-bottom: 20px;
+    }
+    &__link{
+        color: $negro;
+        font-size: 70px;
+        &:hover{
+            color: $verde;
+        }
+    }
+}

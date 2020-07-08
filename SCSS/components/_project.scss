@@ -1,0 +1,29 @@
+.section--container{
+    width: 85%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.project {
+    &--container{
+        display: block;
+        margin-top: 20px;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 25% 30% 20% 25%;
+        list-style: none;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &__item{
+        border: 3px solid $blanco;
+        padding: 10px;
+        color: $blanco;
+    }
+    &__img{
+        width: 300px;
+        height: auto; 
+    }
+}

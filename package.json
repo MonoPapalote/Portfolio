@@ -1,0 +1,18 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "\"portafolio-sass\"",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "scss": "^0.2.4",
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --output-style expanded"
+  },
+  "author": "Cristofer Esquivel",
+  "license": "ISC"
+}
