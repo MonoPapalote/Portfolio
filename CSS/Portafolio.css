@@ -152,7 +152,7 @@ body {
   margin-left: 3%;
   clip-path: inset(0% 0% 30% 0%);
   transition: all .5s ease-in-out;
-  cursor: pointer;
+  cursor: default;
 }
 
 .language__item:hover {
@@ -200,4 +200,67 @@ body {
 .project__img {
   width: 300px;
   height: auto;
+}
+
+@media screen and (max-width: 930px){
+
+.header{
+  display: block;
+}
+
+.header__logo{
+  margin-left: 5px;
+}
+
+.header__title{
+  margin-left: 10px;
+}
+
+.nav{
+  position: relative;
+}
+
+.nav--container{
+  margin-left: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+.nav__list {  
+  margin-top: 5px;
+  display: flex;
+}
+
+.nav__item {
+  margin-bottom: 5px;
+  padding: 2%;
+}
+
+.article--container{
+  display: block;
+  margin-left: 0px;
+}
+
+.article__list{
+  width: 96%;
+}
+
+.language__list{
+  display: block;
+}
+
+.language__item{
+  clip-path: none;
+  transition: none;
+  cursor: none;
+}
+
+.project__list{
+  display: block;
+}
+
+.project__img{
+  width: 200px;
+}
+
 }
